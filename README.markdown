@@ -1,1 +1,3 @@
-Druid is a small PHP framework experiment - it's not meant to be used on production environments and probably never will be.
+Druid is a small PHP framework experiment - purely for our amusement and experimentation.
+
+Feel free to use it in any way you wish.

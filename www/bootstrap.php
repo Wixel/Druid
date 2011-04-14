@@ -2,30 +2,38 @@
 
 Druid::map(
 	'GET /', function(){
-		echo "home";
+		echo "home page should be rendered here";
 	}
 );
 
-#Druid::map(
-#	'GET /', 'Controller_Test::t'
-#);
-
+/*
 Druid::map(
-	'GET /dashboard/login', function(){
-		
+	'GET /', 'Controller::index'
+);
+*/
+
+/*
+Druid::map(
+	'POST /login', function(){
+		// do cool login stuff
 	}
 );
+*/
 
-#Druid::map(
-#	'GET %/dashboard/signup/(.+)%i', function(){
-#		
-#	}
-#);
+/*
+Druid::map(
+	'GET %/dashboard/signup/(.+)%i', function(){
+		// regex matching
+	}
+);
+*/
 
+/*
 Druid::map(
 	'GET %/dashboard/signup/(?P<test>.+)/%i', function(){
-		echo "sdfsf";
+		// grouped regex matching
 	}
 );
+*/
 
 Druid::instance()->run();
