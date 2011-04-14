@@ -2,7 +2,7 @@
 
 // ** ------------------------- Framework Configuration ----------------------- ** //
 
-Druid::set('base_url'	, 'http://app.mooblr.com/'			 );	
+Druid::set('base_url'	, ''			 );	
 Druid::set('controllers', realpath('../').'/www/controllers/');	
 Druid::set('models'     , realpath('../').'/www/models/'	 ); 
 Druid::set('cache'      , realpath('../').'/www/cache/'	     ); 
