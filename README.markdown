@@ -1,0 +1,1 @@
+Druid is a small PHP framework experiment - it's not meant to be used on production environments and probably never will be.
